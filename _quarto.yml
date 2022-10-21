@@ -1,0 +1,35 @@
+project:
+  type: website
+
+website:
+  title: "Chiara Di Gravio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: Education.qmd
+        text: Education & Experience
+      - href: Publications.qmd
+        text: Publications
+      - href: Talks.qmd
+        text: Talks
+      - href: Projects.qmd
+        text: Just for Fun
+
+    right:
+      - icon: github
+        href: https://github.com/ChiaraDG?tab=repositories
+      - href: resume.pdf
+        icon: person-circle
+      - icon: twitter
+        href: https://twitter.com/chiara_digravio
+
+format:
+  html:
+    theme: yeti
+    css: styles.css
+    toc: false
+    fontsize: 0.8em
+
+editor: visual
+

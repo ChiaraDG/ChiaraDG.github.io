@@ -1,0 +1,17 @@
+---
+title: "Chiara Di Gravio"
+about: 
+    template: trestles
+    image: images/chiara.jpg
+    links: 
+      - href: https://github.com/ChiaraDG?tab=repositories
+        text: Github
+      - href: resume.pdf
+        text: Resume
+---
+
+## About Me
+
+I am a 5th year Biostatistics PhD candidate at [Vanderbilt University](https://www.vumc.org/biostatistics). My research interests include longitudinal data, epidemiological study design, and integration of multiple data sources to improve the precision of randomised trials. Currently, I am working with [Jonathan Schildcrout](https://biostat.app.vumc.org/wiki/Main/JonathanSchildcrout) and [Ran Tao](https://sites.google.com/site/dragontaoran/) on ways to design cost- and resource-efficient studies for longitudinal data. Recently, I have started working with [Amir Asiaee](https://www.amirasiaee.com) on causal inference and integration of data from randomised clinical trials and observational studies.
+
+Before joining Vanderbilt, I worked as statistician for the "Nutrition, Development and Lifelong Health in Transitioning Populations" programme at the [MRC Lifecourse Epidemiology Unit](https://www.mrc.soton.ac.uk/web2/).

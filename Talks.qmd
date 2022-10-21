@@ -1,0 +1,27 @@
+---
+title: ""
+---
+
+## Oral Presentation
+
+-   Efficient Design and Analysis of a Two-Phase Study with Longitudinal Binary Outcomes. *ENAR 2022*. Houston (TX), US. March 2022. [\[Slides\]](https://github.com/ChiaraDG/PhD-Talks/blob/main/ENAR2022/ENARslide.pdf)
+
+-   Design and Analysis of Two-Phase Studies with Multivariate Longitudinal Outcomes. *Vanderbilt Department of Biostatistics Weekly Seminar*. Nashville (TN), US. September 2021. [\[Slides\]](https://github.com/ChiaraDG/PhD-Talks/blob/main/VUSeminar2021/SeminarSlides.pdf)
+
+-   Design and Analysis of Two-Phase Studies with Multivariate Longitudinal Outcomes. *ENAR 2021*. Virtual. March 2021. [\[Slides\]](https://github.com/ChiaraDG/PhD-Talks/blob/main/ENAR2021/ENAR2021slides.pdf)
+
+-   Multiple imputation of an expensive covariate in outcome dependent sampling designs for longitudinal data. *ENAR 2020*. Virtual. March 2020. [\[Slides\]](https://github.com/ChiaraDG/PhD-Talks/blob/main/ENAR2020/ENAR_Presentation.pdf)
+
+-   Comparing BMI with skinfolds to estimate age at adiposity rebound and associations with later cardio-metabolic risk markers. *20th Annual SNEHA - MRC International Workshop*. Pune (India). February 2017.
+
+-   Instrumental variables selection: a comparison between regularisation and post-regularisation methods. *UBC Department of Statistics Weekly Seminar*. Vancouver (BC), Canada. August 2015.
+
+## Poster Presentation
+
+-   The association of maternal age with fetal growth and newborn measures: the Mumbai Maternal Nutrition Project (MMNP). *10th World Congress on Development Origins of Health and Disease (DOHaD)*. Rotterdam (Netherlands). October 2017.
+
+-   Comparing BMI with skinfolds to estimate age at adiposity rebound and associations with later cardio-metabolic risk markers. *61th Annual Scientific Meeting: Society of Social Medicine*. Manchester (UK). September 2017.
+
+-   A pre-conceptional micronutrient-rich food-based snack for women in Mumbai slums did not increase ultrasound measures of fetal growth. *Nutrition and Nurture in Infancy and Childhood*. Grange-over-Sands (UK). June 2017.
+
+-   A pre-conceptional micronutrient-rich food-based snack for women in Mumbai slums did not increase ultrasound measures of fetal growth. *19th Annual SNEHA - MRC International Workshop*. Hyderabad (India). February 2016. **Winner of the Best Poster Award**.

@@ -1,0 +1,45 @@
+---
+title: ""
+---
+
+## Statistical Methods
+
+-   Schildcrout JS, Harrell FE, Heagerty PJ, Haneuse S, **Di Gravio C**, Garbett SP, Rathouz PJ, Shepherd BE (2022). Model-assisted analyses of longitudinal, ordinal outcomes with absorbing states. *Statistics in Medicine, 41(14)*. [\[Paper\]](https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.9366)[\[Code\]](https://github.com/schildjs/OMTM1)
+
+-   **Di Gravio C** Tao R, Schildcrout JS (2022). Design and analysis of two-phase studies with multivariate longitudinal outcomes. *Biometrics*. [\[Paper\]](https://onlinelibrary.wiley.com/doi/abs/10.1111/biom.13616)[\[Code\]](https://github.com/ChiaraDG/MultivariateODS_LMM)
+
+## Epidemiology
+
+-   Sahariah SA, Gandhi M, Chopra H, Kehoe SH, Johnson MJ, **Di Gravio C**, Patkar D, Sane H, Coakley PJ, Karkera AH, Bhat DS, Brown N, Margetts BM, Jackson AA, Kumaran K, Potdar RD, Fall CHD (2022). Body composition and cardiometabolic risk markers in children of women who took part in a randomized controlled trial of a pre-conceptional nutritional intervention in Mumbai, India. *The Journal of Nutrition, 152(4).* [\[Paper\]](https://academic.oup.com/jn/article/152/4/1070/6500204?login=false)
+
+-   Starnes J, **Di Gravio C**, Irlmeier R, Moore R, Okoth V, Rogers A, Ressler D, Moon T (2021). Characterizing multidimensional poverty in Migori County, Kenya and its association with depression. *PLOS ONE 16(11).* [\[Paper\]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259848)
+
+-   Banerdt J, Mateyo K, Yan Y, Liu D, Zuo Y, **Di Gravio C**, Thome J, Riviello E, Saylor D, Ely W, Heimburger D, (2021). Risk factors for delirium among hospitalized patients in Zambia. *PLOS ONE 16(4)*. [\[Paper\]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0249097)
+
+-   Kostelanetz S, **Di Gravio C**, Schildcrout JS, Roumie C, Conway D, Kripalani S (2021). Should we implement geographic or patient-reported social determinants of health measures in cardiovascular patients? *Ethnicity and Disease, 31(1)*. [\[Paper\]](https://pubmed.ncbi.nlm.nih.gov/33519151/)
+
+-   Kumaran K, Joshi SM, **Di Gravio C**, Coakley PJ, Lubree H, Joglekar C, Bhat DS, Kinare AS, Bavdekar A, Bhave SA, Pandit AN, Osmond C, Yajnik CS Fall CHD (2020). Do components of adult height predict body composition and cardiometabolic risk in a young adult South Asian Indian population? Findings from a hospital-based cohort study in Pune: The Pune Children's Study. *BMJ Open, 10(10)*. [\[Paper\]](https://bmjopen.bmj.com/content/10/10/e036897.long)
+
+-   Nunn RL, Kehoe SH, Chopra H, Sahariah SA, Gandhi M, **Di Gravio C**, Coakley PJ, Cox VA, Sane H, Shivshankaran D, Marley-Zagar E, Margetts BM, Jackson AA, Potdar RD, Fall CHD (2019). Dietary micronutrient intakes among women of reproductive age in Mumbai slums. *European Journal of Clinical Nutrition, 73(11)*. [\[Paper\]](https://www.nature.com/articles/s41430-019-0429-6)
+
+-   **Di Gravio C**, Lawande A, Potdar RD, Sahariah SA, Gandhi M, Brown N, Chopra H, Sane H, Kehoe SH, Marley-Zagar E, Margetts BM, Jackson AA, Fall CHD (2019). The association of maternal age with fetal growth and newborn measures: the Mumbai Maternal Nutrition Project (MMNP). *Reproductive Science, 26(7)*. [\[Paper\]](https://pubmed.ncbi.nlm.nih.gov/30419799/)
+
+-   **Di Gravio C**, Krishnaveni GV, Somashekara R, Veena SR, Kumaran K, Murali Krishna, Karat SC, Fall CHD (2018). Comparing BMI with skinfolds to estimate age at adiposity rebound and its associations with later cardio-metabolic risk markers. *International Journal of Obesity, 43(4)*. [\[Paper\]](https://www.nature.com/articles/s41366-018-0144-8)
+
+-   Vasan S, Osmond C, Canoy D, Christodoulides C, Neville M, **Di Gravio C**, Fall CHD, Karpe F (2018). Comparison of regional fat measurements by dual-energy X-ray absorptiometry and conventional anthropometry and their association with markers of diabetes and cardiovascular disease risk. *International Journal of Obesity, 42(4)*. [\[Paper\]](https://www.nature.com/articles/ijo2017289)
+
+-   Lawande A, **Di Gravio C**, Potdar RD, Sahariah SA, Gandhi M, Chopra H, Sane H, Kehoe SH, Marley-Zagar E, Margetts BM, Jackson AA, Fall CHD (2018). Effect of a micronutrient-rich snack taken pre-conceptionally and throughout pregnancy on ultrasound measures of fetal growth: the Mumbai Maternal Nutrition Project (MMNP). *Maternal & Child Nutrition Journal, 14(1).* [\[Paper\]](https://pubmed.ncbi.nlm.nih.gov/28251804/)
+
+## Genetics & Epigenetics
+
+-   Nongmaithem SS, Beaumont RN, Dedaniya A, Wood AR, Ogunkolade BW, Hassan Z, Krishnaveni GV, Kumaran K, Potdar RD, Sahariah SA, Krishna M, **Di Gravio C**, Mali ID, Sankareswaran A, Hussain A, Biswajit WB, Khan AKA, Knight BA, Frayling TM, Finer S, Fall CHD, Yajnik CS, Freathy RM, Hitman GA, Chandak GR (2022). Babies of South Asian and European Ancestry Show Similar Associations with Genetic Risk Score for Birth Weight Despite the Smaller Size of South Asian Newborns. *Diabetes, 71(4)*. [\[Paper\]](https://diabetesjournals.org/diabetes/article-abstract/71/4/821/140943/Babies-of-South-Asian-and-European-Ancestry-Show?redirectedFrom=fulltext)
+
+-   Antoun E, Issarapu P, **Di Gravio C**, Shresta S, Betts M, Saffari A, Sahariah SA, Sankareswaran A, Arumalla M, Prentice AM, Fall CHD, Silver M, Chandak GR, Lillycrop K and the EMPHASIS study group (2022). DNA methylation signatures associated with cardiometabolic risk factors in children from India and The Gambia: results from the EMPHASIS study. *Clinical Epigenetics, 14(1)*. [\[Paper\]](https://clinicalepigeneticsjournal.biomedcentral.com/articles/10.1186/s13148-021-01213-3)
+
+-   Chandak GR, Silver M, Saffari A, Lillycrop K, Shrestha S, Sahariah SA, **Di Gravio C**, Goldberg G, Tomar A, Betts M, Sajjadi S, Acolatse L, James P, Issarapu P, Kumaran K, Potdar RD, Prentice A, Fall CHD and the EMPHASIS study group (2017). Protocol for the EMPHASIS study; epigenetic mechanisms linking maternal pre-conceptional nutrition and children's health in India and Sub-Saharan Africa. *BMC Nutrition, 3(81)*. [\[Paper\]](https://bmcnutr.biomedcentral.com/articles/10.1186/s40795-017-0200-0)
+
+## Others
+
+-   Cortina MB, **Di Gravio C**, Osmond C (2017). El problema de todos los cumpleaños. *Laberintos e Infinitos (45)*
+
+-   Inskip H, Ntani G, Westbury L, **Di Gravio C**, D'Angelo S, Parsons C, Baird J (2017). Getting started with tables. *Archives of Public Health 75(14)* [\[Paper\]](https://archpublichealth.biomedcentral.com/articles/10.1186/s13690-017-0180-1)
