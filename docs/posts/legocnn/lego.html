@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.649">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Chiara Di Gravio">
+<meta name="dcterms.date" content="2022-02-17">
+<meta name="description" content="Lego has been around since 1949, so it is time that someone sorts through some of their mini-figures! In this notebook, images of Lego mini-figures are classified using a deep neural network implemented with Pytorch.">
+
+<title>Chiara Di Gravio - Using A Neural Network with Pytorch To Classify Lego Minifigures</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Chiara Di Gravio</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../Education.html">Education &amp; Experience</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../Publications.html">Publications</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../Talks.html">Talks</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../Projects.html">Just for Fun</a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/ChiaraDG?tab=repositories"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../resume.pdf"><i class="bi bi-person-circle" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/chiara_digravio"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Using A Neural Network with Pytorch To Classify Lego Minifigures</h1>
+                  <div>
+        <div class="description">
+          Lego has been around since 1949, so it is time that someone sorts through some of their mini-figures! In this notebook, images of Lego mini-figures are classified using a deep neural network implemented with Pytorch.
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Chiara Di Gravio </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 17, 2022</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p><a href="https://colab.research.google.com/drive/1QDGCRreZX7i2BYF3NzkOg6YkD0skspgv?usp=sharing"><strong>CLICK HERE TO OPEN THE JUPYTER NOTEBOOK</strong></a></p>
+<p>In the linked notebook, I implemented a deep NN using Tensorflow to classify mini-figures from the Marvel World, Harry Potter, Star Wars and Jurassic World. Implementation of the Neural Network together with the results can be found in the link above. Below is a short primer on deep neural networks and a list of references used to write the</p>
+<section id="a-primer-on-deep-neural-networks" class="level3">
+<h3 class="anchored" data-anchor-id="a-primer-on-deep-neural-networks">A Primer on Deep Neural Networks</h3>
+<p>A Neural Network (NN) is a deep learning algorithm inspired by the structure of neurons in the human brain. Like the neurons in the human brain signal to each other to allow us to perform any activity, in a NN neurons, so-called nodes, signal to each other to allow the network to perform a task. In this example the task consists in classifying Lego characters from a set of pictures.</p>
+<p>A NN is usually comprised of an input layer, one or more hidden layers and an output layer. The picture below shows an example of a simple NN with two hidden layers:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="NNexample.png" class="img-fluid figure-img"></p>
+<p></p><figcaption aria-hidden="true" class="figure-caption">Example of a Neural Network with Two Hidden Layers</figcaption><p></p>
+</figure>
+</div>
+<p>In each layer, nodes receive the signal from one or more of the nodes in the previous layers, perform different a series of calculations, and send the output of these calculations to nodes in the subsequent layers. The calculation performed within each node involves estimating a set of <strong>weights</strong> which will help us understanding how much of the signal needs to be pushed from one node to the next one. <strong>Weights are essential.</strong> At each iteration the NN learns by adjusting these weights!</p>
+<section id="how-does-a-neural-network-learns" class="level4">
+<h4 class="anchored" data-anchor-id="how-does-a-neural-network-learns">How does a neural network learns?</h4>
+<p>In other words, how can a NN classify each Lego mini-figure?</p>
+<ul>
+<li><p><strong>Step 1: Forward Pass</strong>. Impute the data, initialize the weights, and push the signal from the input layer to the output layer through the hidden layers.</p></li>
+<li><p><strong>Step 2: The Cost Function</strong>. Once the forward pass is over, the NN outputs its prediction for each image. In this step we need to choose a metric (i.e., a cost function) and evaluate how close/far we are from the truth. For instance, in the Lego classification problem we should ask ourselves the question: how many pictures were correctly classifies by the NN? The aim of the NN is to minimise this user-defined metric.</p></li>
+<li><p><strong>Step 3: Backpropagation</strong>. After computing the error in step 2, the NN moves backwards from the output to the input layer going through the hidden layers. This is the step where the NN is actually learning something! The main idea is to use an optimisation algorithm to change the weights for each neuron in order to minimise the metric from Step 2.</p></li>
+<li><p><strong>Step 4: Keep Going</strong>. Repeat step 1 to 3 until the weights in each neuron do not change anymore (or change really really little).</p></li>
+</ul>
+</section>
+<section id="why-has-the-world-used-nn-in-the-last-15-years-only" class="level4">
+<h4 class="anchored" data-anchor-id="why-has-the-world-used-nn-in-the-last-15-years-only">Why has the world used NN in the last 15 years only?</h4>
+<p>The number of parameters we need to estimate is <strong>HUGE!!</strong> Each node has its own set of weights, so the more layers a network has, the higher is the number of weights we need to estimate. This created a computational problem: while the theory of NN has been around for the long time, the computational capabilities needed to train a NN are recent.</p>
+</section>
+</section>
+<section id="reference" class="level3">
+<h3 class="anchored" data-anchor-id="reference">Reference</h3>
+<p>[1] <a href="https://www.ibm.com/cloud/learn/neural-networks">IBM Webpage</a></p>
+<p>[2] <a href="https://en.wikipedia.org/wiki/Lego">When were Lego first manufactured?</a></p>
+<p>[3] <a href="https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator">Data augmentation in Tensorflow</a></p>
+<p>[4] <a href="https://arxiv.org/abs/1608.06993">A more in-depth discussion on DenseNet121</a></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

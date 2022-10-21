@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "posts/legocnn/lego.html",
+    "href": "posts/legocnn/lego.html",
+    "title": "Using A Neural Network with Pytorch To Classify Lego Minifigures",
+    "section": "",
+    "text": "In the linked notebook, I implemented a deep NN using Tensorflow to classify mini-figures from the Marvel World, Harry Potter, Star Wars and Jurassic World. Implementation of the Neural Network together with the results can be found in the link above. Below is a short primer on deep neural networks and a list of references used to write the\n\nA Primer on Deep Neural Networks\nA Neural Network (NN) is a deep learning algorithm inspired by the structure of neurons in the human brain. Like the neurons in the human brain signal to each other to allow us to perform any activity, in a NN neurons, so-called nodes, signal to each other to allow the network to perform a task. In this example the task consists in classifying Lego characters from a set of pictures.\nA NN is usually comprised of an input layer, one or more hidden layers and an output layer. The picture below shows an example of a simple NN with two hidden layers:\n\n\n\nExample of a Neural Network with Two Hidden Layers\n\n\nIn each layer, nodes receive the signal from one or more of the nodes in the previous layers, perform different a series of calculations, and send the output of these calculations to nodes in the subsequent layers. The calculation performed within each node involves estimating a set of weights which will help us understanding how much of the signal needs to be pushed from one node to the next one. Weights are essential. At each iteration the NN learns by adjusting these weights!\n\nHow does a neural network learns?\nIn other words, how can a NN classify each Lego mini-figure?\n\nStep 1: Forward Pass. Impute the data, initialize the weights, and push the signal from the input layer to the output layer through the hidden layers.\nStep 2: The Cost Function. Once the forward pass is over, the NN outputs its prediction for each image. In this step we need to choose a metric (i.e., a cost function) and evaluate how close/far we are from the truth. For instance, in the Lego classification problem we should ask ourselves the question: how many pictures were correctly classifies by the NN? The aim of the NN is to minimise this user-defined metric.\nStep 3: Backpropagation. After computing the error in step 2, the NN moves backwards from the output to the input layer going through the hidden layers. This is the step where the NN is actually learning something! The main idea is to use an optimisation algorithm to change the weights for each neuron in order to minimise the metric from Step 2.\nStep 4: Keep Going. Repeat step 1 to 3 until the weights in each neuron do not change anymore (or change really really little).\n\n\n\nWhy has the world used NN in the last 15 years only?\nThe number of parameters we need to estimate is HUGE!! Each node has its own set of weights, so the more layers a network has, the higher is the number of weights we need to estimate. This created a computational problem: while the theory of NN has been around for the long time, the computational capabilities needed to train a NN are recent.\n\n\n\nReference\n[1] IBM Webpage\n[2] When were Lego first manufactured?\n[3] Data augmentation in Tensorflow\n[4] A more in-depth discussion on DenseNet121"
+  },
+  {
+    "objectID": "Talks.html",
+    "href": "Talks.html",
+    "title": "Chiara Di Gravio",
+    "section": "",
+    "text": "Efficient Design and Analysis of a Two-Phase Study with Longitudinal Binary Outcomes. ENAR 2022. Houston (TX), US. March 2022. [Slides]\nDesign and Analysis of Two-Phase Studies with Multivariate Longitudinal Outcomes. Vanderbilt Department of Biostatistics Weekly Seminar. Nashville (TN), US. September 2021. [Slides]\nDesign and Analysis of Two-Phase Studies with Multivariate Longitudinal Outcomes. ENAR 2021. Virtual. March 2021. [Slides]\nMultiple imputation of an expensive covariate in outcome dependent sampling designs for longitudinal data. ENAR 2020. Virtual. March 2020. [Slides]\nComparing BMI with skinfolds to estimate age at adiposity rebound and associations with later cardio-metabolic risk markers. 20th Annual SNEHA - MRC International Workshop. Pune (India). February 2017.\nInstrumental variables selection: a comparison between regularisation and post-regularisation methods. UBC Department of Statistics Weekly Seminar. Vancouver (BC), Canada. August 2015."
+  },
+  {
+    "objectID": "Talks.html#poster-presentation",
+    "href": "Talks.html#poster-presentation",
+    "title": "Chiara Di Gravio",
+    "section": "Poster Presentation",
+    "text": "Poster Presentation\n\nThe association of maternal age with fetal growth and newborn measures: the Mumbai Maternal Nutrition Project (MMNP). 10th World Congress on Development Origins of Health and Disease (DOHaD). Rotterdam (Netherlands). October 2017.\nComparing BMI with skinfolds to estimate age at adiposity rebound and associations with later cardio-metabolic risk markers. 61th Annual Scientific Meeting: Society of Social Medicine. Manchester (UK). September 2017.\nA pre-conceptional micronutrient-rich food-based snack for women in Mumbai slums did not increase ultrasound measures of fetal growth. Nutrition and Nurture in Infancy and Childhood. Grange-over-Sands (UK). June 2017.\nA pre-conceptional micronutrient-rich food-based snack for women in Mumbai slums did not increase ultrasound measures of fetal growth. 19th Annual SNEHA - MRC International Workshop. Hyderabad (India). February 2016. Winner of the Best Poster Award."
+  },
+  {
+    "objectID": "Projects.html",
+    "href": "Projects.html",
+    "title": "Chiara Di Gravio",
+    "section": "",
+    "text": "Lego has been around since 1949, so it is time that someone sorts through some of their mini-figures! In this notebook, images of Lego mini-figures are classified using a deep neural network implemented with Pytorch.\n\n\n\n\n\n\nFeb 17, 2022\n\n\nChiara Di Gravio\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Chiara Di Gravio",
+    "section": "",
+    "text": "I am a 5th year Biostatistics PhD candidate at Vanderbilt University. My research interests include longitudinal data, epidemiological study design, and integration of multiple data sources to improve the precision of randomised trials. Currently, I am working with Jonathan Schildcrout and Ran Tao on ways to design cost- and resource-efficient studies for longitudinal data. Recently, I have started working with Amir Asiaee on causal inference and integration of data from randomised clinical trials and observational studies.\nBefore joining Vanderbilt, I worked as statistician for the “Nutrition, Development and Lifelong Health in Transitioning Populations” programme at the MRC Lifecourse Epidemiology Unit."
+  },
+  {
+    "objectID": "Publications.html",
+    "href": "Publications.html",
+    "title": "Chiara Di Gravio",
+    "section": "",
+    "text": "Schildcrout JS, Harrell FE, Heagerty PJ, Haneuse S, Di Gravio C, Garbett SP, Rathouz PJ, Shepherd BE (2022). Model-assisted analyses of longitudinal, ordinal outcomes with absorbing states. Statistics in Medicine, 41(14). [Paper][Code]\nDi Gravio C Tao R, Schildcrout JS (2022). Design and analysis of two-phase studies with multivariate longitudinal outcomes. Biometrics. [Paper][Code]"
+  },
+  {
+    "objectID": "Publications.html#epidemiology",
+    "href": "Publications.html#epidemiology",
+    "title": "Chiara Di Gravio",
+    "section": "Epidemiology",
+    "text": "Epidemiology\n\nSahariah SA, Gandhi M, Chopra H, Kehoe SH, Johnson MJ, Di Gravio C, Patkar D, Sane H, Coakley PJ, Karkera AH, Bhat DS, Brown N, Margetts BM, Jackson AA, Kumaran K, Potdar RD, Fall CHD (2022). Body composition and cardiometabolic risk markers in children of women who took part in a randomized controlled trial of a pre-conceptional nutritional intervention in Mumbai, India. The Journal of Nutrition, 152(4). [Paper]\nStarnes J, Di Gravio C, Irlmeier R, Moore R, Okoth V, Rogers A, Ressler D, Moon T (2021). Characterizing multidimensional poverty in Migori County, Kenya and its association with depression. PLOS ONE 16(11). [Paper]\nBanerdt J, Mateyo K, Yan Y, Liu D, Zuo Y, Di Gravio C, Thome J, Riviello E, Saylor D, Ely W, Heimburger D, (2021). Risk factors for delirium among hospitalized patients in Zambia. PLOS ONE 16(4). [Paper]\nKostelanetz S, Di Gravio C, Schildcrout JS, Roumie C, Conway D, Kripalani S (2021). Should we implement geographic or patient-reported social determinants of health measures in cardiovascular patients? Ethnicity and Disease, 31(1). [Paper]\nKumaran K, Joshi SM, Di Gravio C, Coakley PJ, Lubree H, Joglekar C, Bhat DS, Kinare AS, Bavdekar A, Bhave SA, Pandit AN, Osmond C, Yajnik CS Fall CHD (2020). Do components of adult height predict body composition and cardiometabolic risk in a young adult South Asian Indian population? Findings from a hospital-based cohort study in Pune: The Pune Children’s Study. BMJ Open, 10(10). [Paper]\nNunn RL, Kehoe SH, Chopra H, Sahariah SA, Gandhi M, Di Gravio C, Coakley PJ, Cox VA, Sane H, Shivshankaran D, Marley-Zagar E, Margetts BM, Jackson AA, Potdar RD, Fall CHD (2019). Dietary micronutrient intakes among women of reproductive age in Mumbai slums. European Journal of Clinical Nutrition, 73(11). [Paper]\nDi Gravio C, Lawande A, Potdar RD, Sahariah SA, Gandhi M, Brown N, Chopra H, Sane H, Kehoe SH, Marley-Zagar E, Margetts BM, Jackson AA, Fall CHD (2019). The association of maternal age with fetal growth and newborn measures: the Mumbai Maternal Nutrition Project (MMNP). Reproductive Science, 26(7). [Paper]\nDi Gravio C, Krishnaveni GV, Somashekara R, Veena SR, Kumaran K, Murali Krishna, Karat SC, Fall CHD (2018). Comparing BMI with skinfolds to estimate age at adiposity rebound and its associations with later cardio-metabolic risk markers. International Journal of Obesity, 43(4). [Paper]\nVasan S, Osmond C, Canoy D, Christodoulides C, Neville M, Di Gravio C, Fall CHD, Karpe F (2018). Comparison of regional fat measurements by dual-energy X-ray absorptiometry and conventional anthropometry and their association with markers of diabetes and cardiovascular disease risk. International Journal of Obesity, 42(4). [Paper]\nLawande A, Di Gravio C, Potdar RD, Sahariah SA, Gandhi M, Chopra H, Sane H, Kehoe SH, Marley-Zagar E, Margetts BM, Jackson AA, Fall CHD (2018). Effect of a micronutrient-rich snack taken pre-conceptionally and throughout pregnancy on ultrasound measures of fetal growth: the Mumbai Maternal Nutrition Project (MMNP). Maternal & Child Nutrition Journal, 14(1). [Paper]"
+  },
+  {
+    "objectID": "Publications.html#genetics-epigenetics",
+    "href": "Publications.html#genetics-epigenetics",
+    "title": "Chiara Di Gravio",
+    "section": "Genetics & Epigenetics",
+    "text": "Genetics & Epigenetics\n\nNongmaithem SS, Beaumont RN, Dedaniya A, Wood AR, Ogunkolade BW, Hassan Z, Krishnaveni GV, Kumaran K, Potdar RD, Sahariah SA, Krishna M, Di Gravio C, Mali ID, Sankareswaran A, Hussain A, Biswajit WB, Khan AKA, Knight BA, Frayling TM, Finer S, Fall CHD, Yajnik CS, Freathy RM, Hitman GA, Chandak GR (2022). Babies of South Asian and European Ancestry Show Similar Associations with Genetic Risk Score for Birth Weight Despite the Smaller Size of South Asian Newborns. Diabetes, 71(4). [Paper]\nAntoun E, Issarapu P, Di Gravio C, Shresta S, Betts M, Saffari A, Sahariah SA, Sankareswaran A, Arumalla M, Prentice AM, Fall CHD, Silver M, Chandak GR, Lillycrop K and the EMPHASIS study group (2022). DNA methylation signatures associated with cardiometabolic risk factors in children from India and The Gambia: results from the EMPHASIS study. Clinical Epigenetics, 14(1). [Paper]\nChandak GR, Silver M, Saffari A, Lillycrop K, Shrestha S, Sahariah SA, Di Gravio C, Goldberg G, Tomar A, Betts M, Sajjadi S, Acolatse L, James P, Issarapu P, Kumaran K, Potdar RD, Prentice A, Fall CHD and the EMPHASIS study group (2017). Protocol for the EMPHASIS study; epigenetic mechanisms linking maternal pre-conceptional nutrition and children’s health in India and Sub-Saharan Africa. BMC Nutrition, 3(81). [Paper]"
+  },
+  {
+    "objectID": "Publications.html#others",
+    "href": "Publications.html#others",
+    "title": "Chiara Di Gravio",
+    "section": "Others",
+    "text": "Others\n\nCortina MB, Di Gravio C, Osmond C (2017). El problema de todos los cumpleaños. Laberintos e Infinitos (45)\nInskip H, Ntani G, Westbury L, Di Gravio C, D’Angelo S, Parsons C, Baird J (2017). Getting started with tables. Archives of Public Health 75(14) [Paper]"
+  },
+  {
+    "objectID": "Education.html",
+    "href": "Education.html",
+    "title": "Chiara Di Gravio",
+    "section": "",
+    "text": "Vanderbilt University, Nashville (TN), USA\nPhD in Biostatistics | 2018 - 2023 (Expected). Advisers: Jonathan Schildcrout, PhD and Ran Tao, PhD\nUniversity of British Columbia, Vancouver (BC), Canada\nMSc in Statistics | 2013 - 2015. Adviser: Gabriela Cohen Freue, PhD\nSapienza University of Rome, Rome, Italy\nMSc in Actuarial and Financial Science | 2010 - 2013. Adviser: Paola Verico, PhD. Conferred cum laude\nBSc in Statistics, Finance and Insurance | 2006 - 2009. Conferred cum laude"
+  },
+  {
+    "objectID": "Education.html#experience",
+    "href": "Education.html#experience",
+    "title": "Chiara Di Gravio",
+    "section": "Experience",
+    "text": "Experience\nVanderbilt University, Department of Biostatistics, Nashville (TN), USA\n\nResearch Assistant | June 2019 - Present\n\nDeveloped designs and analysis methods for cost and resource efficient studies in longitudinal data settings. Advisers: Jonathan Schildcrout, PhD and Ran Tao, PhD\nProvided statistical analyses for the Vanderbilt Inpatients Cohort Study (VICS). Advisers: Jonathan Schildcrout, PhD and Sunil Kripilani, MD\nMember of the Statistical Innovation in Clinical Trials Working Group\nWorked on ways to integrate randomized controlled trials and observational data. Adviser: Amir Asiaee, PhD\n\nTeaching Assistant | January 2019 - Present\n\nDS5440 Data Science Algorithm (Fall 2020, 2021, 2022). Instructor: Diego Mesa, PhD\nBIOS7330 Regression Modelling Strategies (Spring 2022). Instructor: Frank Harrell, PhD\nBIOS7632 Advanced Statistical Inference (Statistical Learning) (Spring 2021). Instructor: Matt Shotwell, PhD\nMSCI Biostatistics II (Spring 2020). Instructors: Thomas Stewart, PhD and Frank Harrell, PhD\nBIOS6301 Introduction to Statistical Computing (Fall 2019). Instructor: Cole Beck, BSc\nBIOS6312 Modern Regression Analysis (Spring 2019). Instructor: Robert Johnson, PhD\n\n\nMRC Lifecourse Epidemiology Unit, Southampton, UK\n\nStatistician | September 2015 - July 2018\n\nStatistician for the “Nutrition, Development and Lifelong Health in Transitioning Populations” programme\nProvided statistical analysis for multiple studies within the programme. Research included modelling fetal and childhood growth to study associations between early life characteristics and risk of cardio-metabolic disease in later life\nMember of the Epigenetic Mechanism link Pre-conceptional nutrition and Health Assessed in India and Sub-Saharan Africa group. EMPHASIS Website\n\n\nThe University of British Columbia, Vancouver (BC), Canada\n\nTeaching Assistant | September 2013 - August 2015\n\nSTAT300 Intermediate Statistics for Applications (Fall 2013, 2014). Served as Head TA during Fall 2014. Instructors: Bruce Dunham, PhD and Lang Wu, PhD\nSTAT200 Elementary Statistics for Applications (Spring 2014, 2015, Summer 2015). Served as Head TA during Summer 2015. Instructor: Eugenia Yu, MSc"
+  }
+]
