@@ -188,7 +188,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p><strong>Step 1: Forward Pass</strong>. Impute the data, initialize the weights, and push the signal from the input layer to the output layer through the hidden layers.</p></li>
 <li><p><strong>Step 2: The Cost Function</strong>. Once the forward pass is over, the NN outputs its prediction for each image. In this step we need to choose a metric (i.e., a cost function) and evaluate how close/far we are from the truth. For instance, in the Lego classification problem we should ask ourselves the question: how many pictures were correctly classifies by the NN? The aim of the NN is to minimise this user-defined metric.</p></li>
-<li><p><strong>Step 3: Backpropagation</strong>. After computing the error in step 2, the NN moves backwards from the output to the input layer going through the hidden layers. This is the step where the NN is actually learning something! The main idea is to use an optimisation algorithm to change the weights for each neuron in order to minimise the metric from Step 2.</p></li>
+<li><p><strong>Step 3: Backpropagation</strong>. After computing the error in step 2, the NN moves backwards from the output to the input layer going through the hidden layers. This is the step where the NN is actually learning something! The main idea is to combine the chain rule (yes, the chain rule when learned we studying derivatives) with an optimisation algorithm such as gradient descent to change the weights for each neuron in order to minimise the metric from Step 2.</p></li>
 <li><p><strong>Step 4: Keep Going</strong>. Repeat step 1 to 3 until the weights in each neuron do not change anymore (or change really really little).</p></li>
 </ul>
 </section>
