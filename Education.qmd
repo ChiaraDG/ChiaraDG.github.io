@@ -12,6 +12,8 @@ PhD in Biostatistics \| 2018 - 2023 (Expected). Advisers: Jonathan Schildcrout, 
 
 MSc in Statistics \| 2013 - 2015. Adviser: Gabriela Cohen Freue, PhD
 
+Thesis Title: "Instrumental Variable Selection: a Comparison of Regularisation and Post-Regularisation Methods"
+
 **Sapienza University of Rome**, Rome, Italy
 
 MSc in Actuarial and Financial Science \| 2010 - 2013. Adviser: Paola Verico, PhD. Conferred cum laude
