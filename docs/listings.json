@@ -2,6 +2,7 @@
   {
     "listing": "/Projects.html",
     "items": [
+      "/posts/weather/weather.html",
       "/posts/legocnn/lego.html"
     ]
   }

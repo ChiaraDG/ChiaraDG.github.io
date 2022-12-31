@@ -15,7 +15,7 @@ website:
       - href: Talks.qmd
         text: Talks
       - href: Projects.qmd
-        text: Just for Fun
+        text: Blog
 
     right:
       - icon: github
