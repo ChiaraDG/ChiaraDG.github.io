@@ -39,6 +39,8 @@ First, we are going to look at weather trends in the last five years. Of the sev
 ```{r}
 #| warning: false
 #| message: false
+#| #| fig-cap: "How the number of severe weather events change over time across the US. The number of fog events show a sharp increase between 2018 and 2019. Total number of yearly events was divided by 1,000 for ease of representation."
+#| cap-location: margin
 
 # load packages
 library(data.table)
@@ -70,7 +72,9 @@ Next, we are going to add an extra layer to the plot above by looking at weather
 ```{r}
 #| fig-width: 10
 #| fig-height: 10
-# events per type and area
+#| fig-cap: "How the number of severe weather events change over time across the 4 US timezones. Total number of yearly events was divided by 1,000 for ease of representation."
+#| cap-location: margin
+
 area <- dat.severe[, .(NumEventAreaType = .N/1000), 
                    by = c("StartYear", "Type", "TimeZone")]
 ggplot(area, aes(x = StartYear, y = NumEventAreaType, color = Type, group = 1)) +
@@ -127,14 +131,17 @@ for(i in seq_along(event.list)){
 ```{r}
 #| fig-width: 10
 #| fig-height: 10
+#| fig-cap: Total number of extreme fog events recorded in each US State in the last five years.
+#| cap-location: margin
 p.events[[1]]
 ```
 
 Second, let us move to extreme rain. Again the number of rain events are similar within each state across time. It is interesting how little rain California gets compared to the amount of fog. Also, Florida is one of the States where the majority of rain events are recorded. A guess is that hurricane season might have had an impact of this number.
 
-```{r}
-#| fig-width: 10
+```{#| fig-width: 10}
 #| fig-height: 10
+#| fig-cap: Total number of extreme rain events recorded in each US State in the last five years.
+#| cap-location: margin
 p.events[[2]]
 ```
 
@@ -143,6 +150,8 @@ Thus, let us look at extreme cold. As expected the States with extreme cold even
 ```{r}
 #| fig-width: 10
 #| fig-height: 10
+#| fig-cap: Total number of extreme cold events recorded in each US State in the last five years.
+#| cap-location: margin
 p.events[[3]]
 ```
 
@@ -151,6 +160,8 @@ Then comes the snow. There are no extreme snow events recorded in Tennessee in 2
 ```{r}
 #| fig-width: 10
 #| fig-height: 10
+#| fig-cap: Total number of extreme snow events recorded in each US State in the last five years.
+#| cap-location: margin
 p.events[[4]]
 ```
 
@@ -159,6 +170,8 @@ Finally, the extreme storms. Here we go back to the trend we have seen for other
 ```{r}
 #| fig-width: 10
 #| fig-height: 10
+#| fig-cap: Total number of extreme storm events recorded in each US State in the last five years.
+#| cap-location: margin
 p.events[[5]]
 ```
 
@@ -170,9 +183,8 @@ There are three cities in Florida in the top 10 (again hurricane might be the bi
 
 ```{r}
 #| label: tbl-worst-city
-#| tbl-cap: Top 10 cities recording 
-#| 
-#| 
+#| tbl-cap: Top 10 cities recording extreme evetns
+#| cap-location: margin
 cities <- dat.severe[, .(NumEventAreaType = .N), by = c("City", "State")]
 setorder(cities, cols = -"NumEventAreaType") 
 kable(head(cities, 10), col.names = c("City", "State", "Number of Events"))
@@ -181,6 +193,8 @@ kable(head(cities, 10), col.names = c("City", "State", "Number of Events"))
 A short read on the climate Mullan, ID (thanks to Wikipedia) shows that Mullan tend to be really cold and snowy in the winter, nd a quick look at the data shows how 311 extreme snow events were recorded in five years (this is approximately 62 extreme events a year!)
 
 ```{r}
+#| tbl-cap: Extreme ecents recorded in Mullan, ID between 2016 and 2021
+#| cap-location: margin
 mullan <- dat.severe[City == "Mullan"]
 kable(mullan[, .(NumEventAreaType = .N), by = c("Type")],
       col.names = c("Type", "Number of Events"))
