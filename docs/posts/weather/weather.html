@@ -255,7 +255,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><p>Fog was the most common severe events in all of the last five years, followed by extreme cold and rain</p></li>
 <li><p>There is a big increase of registered fog events between 2018 and 2019. In the same year, a big decrease in rain event was registered. Wondering if something changed in the classification of events?</p></li>
 </ul>
-<div class="cell">
+<div class="cell page-columns page-full">
 <details open="">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load packages</span></span>
@@ -282,8 +282,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme_minimal</span>() <span class="sc">+</span> <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>) <span class="sc">+</span></span>
 <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_color_viridis</span>(<span class="at">discrete =</span> <span class="cn">TRUE</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
-<div class="cell-output-display">
-<p><img src="weather_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="weather_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+<p></p><figcaption class="figure-caption margin-caption">How the number of severe weather events change over time across the US. The number of fog events show a sharp increase between 2018 and 2019. Total number of yearly events was divided by 1,000 for ease of representation.</figcaption><p></p>
+</figure>
+</div>
 </div>
 </div>
 <p>Next, we are going to add an extra layer to the plot above by looking at weather trends by time zones in the last five years. The drop in the number of rain events we have seen in the plot above was registered in all the time zones but the US Pacific, while we can see that the number of fog events increased in all time zones between 2018 and 2019.</p>
