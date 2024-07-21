@@ -4,11 +4,19 @@ title: ""
 
 ## Statistical Methods
 
+-   **Di Gravio C**, Schildcrout JS, Tao R (2024). Efficient Designs and Analysis of Two-Phase Studies with Longitudinal Binary Data. *Biometrics*, 80(1). [\[Paper\]](https://academic.oup.com/biometrics/article/80/1/ujad010/7607747)[\[Code\]](https://github.com/ChiaraDG/dames/blob/main/vignettes/replicateSims.Rmd)
+ 
+<!-- -->
+
 -   Schildcrout JS, Harrell FE, Heagerty PJ, Haneuse S, **Di Gravio C**, Garbett SP, Rathouz PJ, Shepherd BE (2022). Model-assisted analyses of longitudinal, ordinal outcomes with absorbing states. *Statistics in Medicine, 41(14)*. [\[Paper\]](https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.9366)[\[Code\]](https://github.com/schildjs/OMTM1)
 
 -   **Di Gravio C** Tao R, Schildcrout JS (2022). Design and analysis of two-phase studies with multivariate longitudinal outcomes. *Biometrics*. [\[Paper\]](https://onlinelibrary.wiley.com/doi/abs/10.1111/biom.13616)[\[Code\]](https://github.com/ChiaraDG/MultivariateODS_LMM)
 
 ## Epidemiology
+
+-   Welch S, **Di Gravio C**, Schildcrout JS, Trochez R, Shi Y, Nair D, Vasilevskis EE, Mixon AS, Bell SP, Kripalani S (2024). Days not at Home: Association of Vulnerability with Healthcare Utilization After Hospitalization for Heart Failure. *Journal of General Internal Medicine*. In press.
+
+<!-- -->
 
 -   Sahariah SA, Gandhi M, Chopra H, Kehoe SH, Johnson MJ, **Di Gravio C**, Patkar D, Sane H, Coakley PJ, Karkera AH, Bhat DS, Brown N, Margetts BM, Jackson AA, Kumaran K, Potdar RD, Fall CHD (2022). Body composition and cardiometabolic risk markers in children of women who took part in a randomized controlled trial of a pre-conceptional nutritional intervention in Mumbai, India. *The Journal of Nutrition, 152(4).* [\[Paper\]](https://academic.oup.com/jn/article/152/4/1070/6500204?login=false)
 
@@ -32,14 +40,22 @@ title: ""
 
 ## Genetics & Epigenetics
 
+- Issarapu P, Arumalla M, Elliott HR, Nongmaithem SS, Sankareswaran A, Betts M, Sajjadi S, Kessler NJ, Bayyana S, Mansuri SR, Derakhshan M, Krishnaveni GV, Shrestha S, Kumaran K, **Di Gravio C**, Sahariah SA, Sanderson E, Relton CL, Ward KA, Moore SE, Prentice AM, Lillycrop KA, Fall CHD, Silver MJ, Chandak GR and the EMPHASIS study group (2023). DNA methylation at the suppressor of cytokine signaling 3 (SOCS3) gene influences height in childhood.  _Nature Communication, 14, 5200_. [\[Paper\]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10457295/)
+
 -   Nongmaithem SS, Beaumont RN, Dedaniya A, Wood AR, Ogunkolade BW, Hassan Z, Krishnaveni GV, Kumaran K, Potdar RD, Sahariah SA, Krishna M, **Di Gravio C**, Mali ID, Sankareswaran A, Hussain A, Biswajit WB, Khan AKA, Knight BA, Frayling TM, Finer S, Fall CHD, Yajnik CS, Freathy RM, Hitman GA, Chandak GR (2022). Babies of South Asian and European Ancestry Show Similar Associations with Genetic Risk Score for Birth Weight Despite the Smaller Size of South Asian Newborns. *Diabetes, 71(4)*. [\[Paper\]](https://diabetesjournals.org/diabetes/article-abstract/71/4/821/140943/Babies-of-South-Asian-and-European-Ancestry-Show?redirectedFrom=fulltext)
 
 -   Antoun E, Issarapu P, **Di Gravio C**, Shresta S, Betts M, Saffari A, Sahariah SA, Sankareswaran A, Arumalla M, Prentice AM, Fall CHD, Silver M, Chandak GR, Lillycrop K and the EMPHASIS study group (2022). DNA methylation signatures associated with cardiometabolic risk factors in children from India and The Gambia: results from the EMPHASIS study. *Clinical Epigenetics, 14(1)*. [\[Paper\]](https://clinicalepigeneticsjournal.biomedcentral.com/articles/10.1186/s13148-021-01213-3)
 
 -   Chandak GR, Silver M, Saffari A, Lillycrop K, Shrestha S, Sahariah SA, **Di Gravio C**, Goldberg G, Tomar A, Betts M, Sajjadi S, Acolatse L, James P, Issarapu P, Kumaran K, Potdar RD, Prentice A, Fall CHD and the EMPHASIS study group (2017). Protocol for the EMPHASIS study; epigenetic mechanisms linking maternal pre-conceptional nutrition and children's health in India and Sub-Saharan Africa. *BMC Nutrition, 3(81)*. [\[Paper\]](https://bmcnutr.biomedcentral.com/articles/10.1186/s40795-017-0200-0)
 
+## Preprints
+
+-   Asiaee A, **Di Gravio C**, Mei Y, Huiling JD (2023). Leveraging Observational Data for Efficient CATE Estimation in Randomized Controlled Trials. [\[Preprint\]](https://arxiv.org/abs/2306.17478).
+
+
 ## Others
 
 -   Cortina MB, **Di Gravio C**, Osmond C (2017). El problema de todos los cumpleaños. *Laberintos e Infinitos (45)*
 
 -   Inskip H, Ntani G, Westbury L, **Di Gravio C**, D'Angelo S, Parsons C, Baird J (2017). Getting started with tables. *Archives of Public Health 75(14)* [\[Paper\]](https://archpublichealth.biomedcentral.com/articles/10.1186/s13690-017-0180-1)
+

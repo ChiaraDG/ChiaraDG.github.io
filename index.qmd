@@ -12,6 +12,6 @@ about:
 
 ## About Me
 
-I am a 5th year Biostatistics PhD candidate at [Vanderbilt University](https://www.vumc.org/biostatistics). My research interests include longitudinal data, epidemiological study design, and integration of multiple data sources to improve the precision of randomised trials. Currently, I am working with [Jonathan Schildcrout](https://biostat.app.vumc.org/wiki/Main/JonathanSchildcrout) and [Ran Tao](https://sites.google.com/site/dragontaoran/) on ways to design cost- and resource-efficient studies for longitudinal data. Recently, I have started working with [Amir Asiaee](https://www.amirasiaee.com) on causal inference and integration of data from randomised clinical trials and observational studies.
+I am a Research Associate at [Imperial College London](https://www.imperial.ac.uk/school-public-health/) working in the Department of Epidemiology and Biostatistics. Currently, I am working on multiple projects raging from understanding the long-term health effects of radiation exposure, to studying the effect of long COVID.
 
-Before joining Vanderbilt, I worked as statistician for the "Nutrition, Development and Lifelong Health in Transitioning Populations" programme at the [MRC Lifecourse Epidemiology Unit](https://www.mrc.soton.ac.uk/web2/).
+I received a PhD in Biostatistics from [Vanderbilt University](https://www.vumc.org/biostatistics). My research interests include longitudinal data, epidemiological study design, and integration of multiple data sources to improve the precision of randomised trials. Before joining Vanderbilt, I worked as statistician for the "Nutrition, Development and Lifelong Health in Transitioning Populations" programme at the [MRC Lifecourse Epidemiology Unit](https://www.mrc.soton.ac.uk/web2/).

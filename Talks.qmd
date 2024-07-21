@@ -2,9 +2,17 @@
 title: ""
 ---
 
-## Oral Presentation
+## Invited Talks
 
--   Efficient Design and Analysis of a Two-Phase Study with Longitudinal Binary Outcomes. *ENAR 2022*. Houston (TX), US. March 2022. [\[Slides\]](https://github.com/ChiaraDG/PhD-Talks/blob/main/ENAR2022/ENARslide.pdf)
+- Analysis of Ordinal Longitudinal Data under Case-Control Sampling: Studying Mortality in Critically Ill Patients. *CMStatistics2023*. Berlin, Germany. December 2023. [\[Slides\]](https://github.com/ChiaraDG/Talks/blob/main/CMStatistics2023/CMStatistics2023.pdf)
+
+## Contributed Talks
+
+- The Relationship between Self-Reported Persistent Symptoms post-COVID-19 and Employment among Adults in England, UK. *Demystifying Long COVID*. Madrid, Spain. December 2023.
+
+-   Efficient Study Designs and Analysis Methods for Binary Longitudinal Data: an Application to the Lung Health Study. *ENAR 2023*. Nashville (TN), US. March 2023. [\[Slides\]](https://github.com/ChiaraDG/PhD-Talks/blob/main/ENAR2023/ENAR2023.pdf) **Winner of ENAR DIstinguished Student Paper Award**
+
+-   Efficient Design and Analysis of a Two-Phase Study with Longitudinal Binary Outcomes. *ENAR 2022*. Houston (TX), US. March 2022. [\[Slides\]](https://github.com/ChiaraDG/PhD-Talks/blob/main/ENAR2022/ENARslide.pdf) 
 
 -   Design and Analysis of Two-Phase Studies with Multivariate Longitudinal Outcomes. *Vanderbilt Department of Biostatistics Weekly Seminar*. Nashville (TN), US. September 2021. [\[Slides\]](https://github.com/ChiaraDG/PhD-Talks/blob/main/VUSeminar2021/SeminarSlides.pdf)
 
