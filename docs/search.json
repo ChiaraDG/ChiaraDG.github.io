@@ -81,7 +81,7 @@
     "href": "Education.html#experience",
     "title": "Chiara Di Gravio",
     "section": "Experience",
-    "text": "Experience\nVanderbilt University, Department of Biostatistics, Nashville (TN), USA\n\nResearch Assistant | June 2019 - Present\n\nDeveloped designs and analysis methods for cost and resource efficient studies in longitudinal data settings. Advisers: Jonathan Schildcrout, PhD and Ran Tao, PhD\nProvided statistical analyses for the Vanderbilt Inpatients Cohort Study (VICS). Advisers: Jonathan Schildcrout, PhD and Sunil Kripilani, MD\nMember of the Statistical Innovation in Clinical Trials Working Group\nWorked on ways to integrate randomized controlled trials and observational data. Adviser: Amir Asiaee, PhD\n\nTeaching Assistant | January 2019 - Present\n\nDS5440 Data Science Algorithm (Fall 2020, 2021, 2022). Instructor: Diego Mesa, PhD\nBIOS7330 Regression Modelling Strategies (Spring 2022). Instructor: Frank Harrell, PhD\nBIOS7632 Advanced Statistical Inference (Statistical Learning) (Spring 2021). Instructor: Matt Shotwell, PhD\nMSCI Biostatistics II (Spring 2020). Instructors: Thomas Stewart, PhD and Frank Harrell, PhD\nBIOS6301 Introduction to Statistical Computing (Fall 2019). Instructor: Cole Beck, BSc\nBIOS6312 Modern Regression Analysis (Spring 2019). Instructor: Robert Johnson, PhD\n\n\nMRC Lifecourse Epidemiology Unit, Southampton, UK\n\nStatistician | September 2015 - July 2018\n\nStatistician for the “Nutrition, Development and Lifelong Health in Transitioning Populations” programme\nProvided statistical analysis for multiple studies within the programme. Research included modelling fetal and childhood growth to study associations between early life characteristics and risk of cardio-metabolic disease in later life\nMember of the Epigenetic Mechanism link Pre-conceptional nutrition and Health Assessed in India and Sub-Saharan Africa group. EMPHASIS Website\n\n\nThe University of British Columbia, Vancouver (BC), Canada\n\nTeaching Assistant | September 2013 - August 2015\n\nSTAT300 Intermediate Statistics for Applications (Fall 2013, 2014). Served as Head TA during Fall 2014. Instructors: Bruce Dunham, PhD and Lang Wu, PhD\nSTAT200 Elementary Statistics for Applications (Spring 2014, 2015, Summer 2015). Served as Head TA during Summer 2015. Instructor: Eugenia Yu, MSc"
+    "text": "Experience\nImperial College London, Department of Epidemiology and Biostatistics, London, UK\n\nResearch Associate | July 2023 - Present\n\nProvided statistical analyses for the Real-time Assessment of Community Transmission (REACT), the Cohort Study of Mobile Phone Use and Health (COSMOS) and the Airwave Study. Adviser: David C Muller, PhD\n\n\nVanderbilt University, Department of Biostatistics, Nashville (TN), USA\n\nResearch Assistant | June 2019 - June 2023\n\nDeveloped designs and analysis methods for cost and resource efficient studies in longitudinal data settings. Advisers: Jonathan Schildcrout, PhD and Ran Tao, PhD\nProvided statistical analyses for the Vanderbilt Inpatients Cohort Study (VICS). Advisers: Jonathan Schildcrout, PhD and Sunil Kripilani, MD\nMember of the Statistical Innovation in Clinical Trials Working Group\nWorked on ways to integrate randomized controlled trials and observational data. Adviser: Amir Asiaee, PhD\n\n\nMRC Lifecourse Epidemiology Unit, Southampton, UK\n\nStatistician | September 2015 - July 2018\n\nStatistician for the “Nutrition, Development and Lifelong Health in Transitioning Populations” programme\nProvided statistical analysis for multiple studies within the programme. Research included modelling fetal and childhood growth to study associations between early life characteristics and risk of cardio-metabolic disease in later life\nMember of the Epigenetic Mechanism link Pre-conceptional nutrition and Health Assessed in India and Sub-Saharan Africa group. EMPHASIS Website"
   },
   {
     "objectID": "Publications.html#statistical-methods",
@@ -131,5 +131,33 @@
     "title": "Chiara Di Gravio",
     "section": "Contributed Talks",
     "text": "Contributed Talks\n\nThe Relationship between Self-Reported Persistent Symptoms post-COVID-19 and Employment among Adults in England, UK. Demystifying Long COVID. Madrid, Spain. December 2023.\nEfficient Study Designs and Analysis Methods for Binary Longitudinal Data: an Application to the Lung Health Study. ENAR 2023. Nashville (TN), US. March 2023. [Slides] Winner of ENAR DIstinguished Student Paper Award\nEfficient Design and Analysis of a Two-Phase Study with Longitudinal Binary Outcomes. ENAR 2022. Houston (TX), US. March 2022. [Slides]\nDesign and Analysis of Two-Phase Studies with Multivariate Longitudinal Outcomes. Vanderbilt Department of Biostatistics Weekly Seminar. Nashville (TN), US. September 2021. [Slides]\nDesign and Analysis of Two-Phase Studies with Multivariate Longitudinal Outcomes. ENAR 2021. Virtual. March 2021. [Slides]\nMultiple imputation of an expensive covariate in outcome dependent sampling designs for longitudinal data. ENAR 2020. Virtual. March 2020. [Slides]\nComparing BMI with skinfolds to estimate age at adiposity rebound and associations with later cardio-metabolic risk markers. 20th Annual SNEHA - MRC International Workshop. Pune (India). February 2017.\nInstrumental variables selection: a comparison between regularisation and post-regularisation methods. UBC Department of Statistics Weekly Seminar. Vancouver (BC), Canada. August 2015."
+  },
+  {
+    "objectID": "Teaching.html",
+    "href": "Teaching.html",
+    "title": "Chiara Di Gravio",
+    "section": "",
+    "text": "Imperial College London. London, UK\n\nIntroduction to Statistical Thinking and Data Analysis (Fall 2023)\n\nVanderbilt University. Nashville, TN (USA)\n\nBIOS7330 Regression Modelling Strategies (Spring 2022)\nBIOS7632 Advanced Statistical Inference (Statistical Learning) (Spring 2021)\nDS5440 Data Science Algorithms (Fall 2020, 2021, 2022)\nMSCI Biostatistics II (Spring 2020)\nBIOS6301 Introduction to Statistical Computing (Fall 2019)\nBIOS6312 Modern Regression Analysis (Spring 2019)\n\nThe University of British Columbia. Vancouver (BC), Canada\n\nSTAT300 Intermediate Statistics for Applications (Fall 2013, 2014)\nSTAT200 Elementary Statistics for Applications (Spring 2014, 2015 and Summer 2015)"
+  },
+  {
+    "objectID": "Teaching.html#teaching-assistant",
+    "href": "Teaching.html#teaching-assistant",
+    "title": "Chiara Di Gravio",
+    "section": "",
+    "text": "Imperial College London. London, UK\n\nIntroduction to Statistical Thinking and Data Analysis (Fall 2023)\n\nVanderbilt University. Nashville, TN (USA)\n\nBIOS7330 Regression Modelling Strategies (Spring 2022)\nBIOS7632 Advanced Statistical Inference (Statistical Learning) (Spring 2021)\nDS5440 Data Science Algorithms (Fall 2020, 2021, 2022)\nMSCI Biostatistics II (Spring 2020)\nBIOS6301 Introduction to Statistical Computing (Fall 2019)\nBIOS6312 Modern Regression Analysis (Spring 2019)\n\nThe University of British Columbia. Vancouver (BC), Canada\n\nSTAT300 Intermediate Statistics for Applications (Fall 2013, 2014)\nSTAT200 Elementary Statistics for Applications (Spring 2014, 2015 and Summer 2015)"
+  },
+  {
+    "objectID": "Teaching.html#guest-lecturer",
+    "href": "Teaching.html#guest-lecturer",
+    "title": "Chiara Di Gravio",
+    "section": "Guest Lecturer",
+    "text": "Guest Lecturer\n\nImperial College London. London, UK\n\nLogistic Regression and Optimization Algorithms. Machine Learning (Spring 2024)\nRegularised Regression Models. Machine Learning (Spring 2024)\n\nVanderbilt University. Nashville, TN (USA)\n\nOverview of Maximum Likelihood Estimation. BIOS7330 Regression Modelling Strategies (Spring 2022 and 2023)"
+  },
+  {
+    "objectID": "Teaching.html#research-supervision",
+    "href": "Teaching.html#research-supervision",
+    "title": "Chiara Di Gravio",
+    "section": "Research Supervision",
+    "text": "Research Supervision\n\nMRC Lifecourse Epidemiology Unit.Southampton, UK\n\nCo-supervisor for students in the Statistics with Application in Medicine MSc at the University of Southampton:\n\nAdam Von Ende (Summer 2017). Main Supervisor: Sarah Crozier, PhD\nDaniella Gossage (Summer 2016). Main Supervisor: Clive Osmond, PhD"
   }
 ]

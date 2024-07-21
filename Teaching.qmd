@@ -1,0 +1,55 @@
+---
+title: ""
+---
+
+## Teaching Assistant
+
+-   *Imperial College London*. London, UK
+
+    -   Introduction to Statistical Thinking and Data Analysis (Fall 2023)
+
+-   *Vanderbilt University*. Nashville, TN (USA)
+
+    -   BIOS7330 Regression Modelling Strategies (Spring 2022)
+
+    -   BIOS7632 Advanced Statistical Inference (Statistical Learning) (Spring 2021)
+
+    -   DS5440 Data Science Algorithms (Fall 2020, 2021, 2022)
+
+    -   MSCI Biostatistics II (Spring 2020)
+
+    -   BIOS6301 Introduction to Statistical Computing (Fall 2019)
+
+    -   BIOS6312 Modern Regression Analysis (Spring 2019)
+
+-   *The University of British Columbia*. Vancouver (BC), Canada
+
+    - STAT300 Intermediate Statistics for Applications (Fall 2013, 2014)
+    
+    - STAT200 Elementary Statistics for Applications (Spring 2014, 2015 and Summer 2015)
+
+
+## Guest Lecturer
+
+-   *Imperial College London*. London, UK
+
+    - _Logistic Regression and Optimization Algorithms_. Machine Learning (Spring 2024)
+    
+    - _Regularised Regression Models_. Machine Learning (Spring 2024)
+
+
+- *Vanderbilt University*. Nashville, TN (USA)
+
+    - _Overview of Maximum Likelihood Estimation_. BIOS7330 Regression Modelling Strategies (Spring 2022 and 2023)
+    
+
+
+## Research Supervision
+
+- *MRC Lifecourse Epidemiology Unit*.Southampton, UK
+
+    - Co-supervisor for students in the Statistics with Application in Medicine MSc at the University of Southampton:
+    
+        - Adam Von Ende (Summer 2017). Main Supervisor: Sarah Crozier, PhD
+        
+        - Daniella Gossage (Summer 2016). Main Supervisor: Clive Osmond, PhD
