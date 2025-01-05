@@ -8,11 +8,13 @@ toc: false
 
 PhD in Biostatistics \| 2018 - 2023. Advisers: Jonathan Schildcrout, PhD and Ran Tao, PhD
 
+Thesis Title: "Designs and Analysis Methods for Modern Biomedical Studies with Longitudinal Outcomes"
+
 **University of British Columbia**, Vancouver (BC), Canada
 
 MSc in Statistics \| 2013 - 2015. Adviser: Gabriela Cohen Freue, PhD
 
-Thesis Title: "Instrumental Variable Selection: a Comparison of Regularisation and Post-Regularisation Methods"
+Thesis Title: "Instrumental Variable Selection: a Comparison of Regularization and Post-Regularization Methods"
 
 **Sapienza University of Rome**, Rome, Italy
 
@@ -26,7 +28,7 @@ BSc in Statistics, Finance and Insurance \| 2006 - 2009. Conferred cum laude
 
 - Research Associate \| July 2023 - Present
 
-    - Provided statistical analyses for the Real-time Assessment of Community Transmission (REACT), the Cohort Study of Mobile Phone Use and Health (COSMOS) and the Airwave Study. Adviser: David C Muller, PhD
+    - Provide statistical analyses for the Real-time Assessment of Community Transmission (REACT), the Cohort Study of Mobile Phone Use and Health (COSMOS) and the Airwave Study. Adviser: David C Muller, PhD
 
 **Vanderbilt University, Department of Biostatistics, Nashville (TN), USA**
 

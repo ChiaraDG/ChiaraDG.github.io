@@ -9,7 +9,7 @@ website:
       - href: index.qmd
         text: Home
       - href: Education.qmd
-        text: Education
+        text: Education & Experience
       - href: Publications.qmd
         text: Publications
       - href: Talks.qmd

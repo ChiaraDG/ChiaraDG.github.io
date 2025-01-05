@@ -5,7 +5,7 @@ title: ""
 ## Statistical Methods
 
 -   **Di Gravio C**, Schildcrout JS, Tao R (2024). Efficient Designs and Analysis of Two-Phase Studies with Longitudinal Binary Data. *Biometrics*, 80(1). [\[Paper\]](https://academic.oup.com/biometrics/article/80/1/ujad010/7607747)[\[Code\]](https://github.com/ChiaraDG/dames/blob/main/vignettes/replicateSims.Rmd)
- 
+
 <!-- -->
 
 -   Schildcrout JS, Harrell FE, Heagerty PJ, Haneuse S, **Di Gravio C**, Garbett SP, Rathouz PJ, Shepherd BE (2022). Model-assisted analyses of longitudinal, ordinal outcomes with absorbing states. *Statistics in Medicine, 41(14)*. [\[Paper\]](https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.9366)[\[Code\]](https://github.com/schildjs/OMTM1)
@@ -14,7 +14,7 @@ title: ""
 
 ## Epidemiology
 
--   Welch S, **Di Gravio C**, Schildcrout JS, Trochez R, Shi Y, Nair D, Vasilevskis EE, Mixon AS, Bell SP, Kripalani S (2024). Days not at Home: Association of Vulnerability with Healthcare Utilization After Hospitalization for Heart Failure. *Journal of General Internal Medicine*. In press.
+-   Welch S, **Di Gravio C**, Schildcrout JS, Trochez R, Shi Y, Nair D, Vasilevskis EE, Mixon AS, Bell SP, Kripalani S (2024). Days not at Home: Association of Vulnerability with Healthcare Utilization After Hospitalization for Heart Failure. *Journal of General Internal Medicine*. Online ahead of print. [\[Paper\]](https://link.springer.com/article/10.1007/s11606-024-08872-x)
 
 <!-- -->
 
@@ -40,7 +40,7 @@ title: ""
 
 ## Genetics & Epigenetics
 
-- Issarapu P, Arumalla M, Elliott HR, Nongmaithem SS, Sankareswaran A, Betts M, Sajjadi S, Kessler NJ, Bayyana S, Mansuri SR, Derakhshan M, Krishnaveni GV, Shrestha S, Kumaran K, **Di Gravio C**, Sahariah SA, Sanderson E, Relton CL, Ward KA, Moore SE, Prentice AM, Lillycrop KA, Fall CHD, Silver MJ, Chandak GR and the EMPHASIS study group (2023). DNA methylation at the suppressor of cytokine signaling 3 (SOCS3) gene influences height in childhood.  _Nature Communication, 14, 5200_. [\[Paper\]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10457295/)
+-   Issarapu P, Arumalla M, Elliott HR, Nongmaithem SS, Sankareswaran A, Betts M, Sajjadi S, Kessler NJ, Bayyana S, Mansuri SR, Derakhshan M, Krishnaveni GV, Shrestha S, Kumaran K, **Di Gravio C**, Sahariah SA, Sanderson E, Relton CL, Ward KA, Moore SE, Prentice AM, Lillycrop KA, Fall CHD, Silver MJ, Chandak GR and the EMPHASIS study group (2023). DNA methylation at the suppressor of cytokine signaling 3 (SOCS3) gene influences height in childhood. *Nature Communication, 14, 5200*. [\[Paper\]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10457295/)
 
 -   Nongmaithem SS, Beaumont RN, Dedaniya A, Wood AR, Ogunkolade BW, Hassan Z, Krishnaveni GV, Kumaran K, Potdar RD, Sahariah SA, Krishna M, **Di Gravio C**, Mali ID, Sankareswaran A, Hussain A, Biswajit WB, Khan AKA, Knight BA, Frayling TM, Finer S, Fall CHD, Yajnik CS, Freathy RM, Hitman GA, Chandak GR (2022). Babies of South Asian and European Ancestry Show Similar Associations with Genetic Risk Score for Birth Weight Despite the Smaller Size of South Asian Newborns. *Diabetes, 71(4)*. [\[Paper\]](https://diabetesjournals.org/diabetes/article-abstract/71/4/821/140943/Babies-of-South-Asian-and-European-Ancestry-Show?redirectedFrom=fulltext)
 
@@ -52,10 +52,8 @@ title: ""
 
 -   Asiaee A, **Di Gravio C**, Mei Y, Huiling JD (2023). Leveraging Observational Data for Efficient CATE Estimation in Randomized Controlled Trials. [\[Preprint\]](https://arxiv.org/abs/2306.17478).
 
-
 ## Others
 
 -   Cortina MB, **Di Gravio C**, Osmond C (2017). El problema de todos los cumpleaños. *Laberintos e Infinitos (45)*
 
 -   Inskip H, Ntani G, Westbury L, **Di Gravio C**, D'Angelo S, Parsons C, Baird J (2017). Getting started with tables. *Archives of Public Health 75(14)* [\[Paper\]](https://archpublichealth.biomedcentral.com/articles/10.1186/s13690-017-0180-1)
-
